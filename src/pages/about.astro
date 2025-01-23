@@ -5,41 +5,34 @@ import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="Over mij | Jeanine Hakvoort" description="Over Jeanine Hakvoort">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+				title="Over mij"
+				tagline="Wat leuk dat je interesse toont. Hier wat meer over mij!"
 			>
 				<img
 					width="1553"
 					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
+					src="/assets/jeanine-at-work.jpg"
+					alt="Jeanine aan het werk met een collega"
 				/>
 			</Hero>
 
 			<section>
-				<h2 class="section-title">Background</h2>
+				<h2 class="section-title">Wie ben ik?</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+						Mijn reis begon in de wereld van communicatie, maar mijn liefde voor design en mijn interesse in development leidde me naar de wereld van UI/UX Design. De ervaring die ik de afgelopen jaren heb opgedaan in deze diverse creatieve disciplines maken me een veelzijdige allrounder die graag door wil leren. De afgelopen jaren heb ik op al deze gebieden ervaring opgedaan. 
 					</p>
+					<br/>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
+						Mijn passie ligt bij het ontwerpen van betekenisvolle digitale ervaringen en door mijn ervaring in zowel communicatie, design en development ben ik in staat om vanuit verschillende perspectieven naar een project te kijken. Hierdoor kan ik oplossingen bedenken die zowel technisch haalbaar zijn en er visueel strak en goed uitzien. En om ervoor te zorgen dat ik up-to-date ben, blijf ik graag leren en ben ik altijd op zoek naar nieuwe manieren om mijn kennis en vaardigheden uit te breiden.
 					</p>
+					<br/>
 					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						In mijn vrije tijd ben ik ook graag creatief bezig. Ik speel graag D&D met vrienden, zit bij een improvisatietheatergroepje en lees en haak graag. Deze creatieve uitlaatkleppen...........
 					</p>
 				</div>
 			</section>
@@ -69,6 +62,7 @@ import Hero from '../components/Hero.astro';
 	}
 
 	img {
+		width: 100%;
 		margin-top: 1.5rem;
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
@@ -109,7 +103,8 @@ import Hero from '../components/Hero.astro';
 		}
 
 		.about > :global(:first-child) {
-			grid-column-start: 2;
+			grid-column: 1 / 4;
+			/*grid-column-start: 2;*/
 		}
 
 		section {
