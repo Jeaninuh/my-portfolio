@@ -4,9 +4,9 @@ import Icon from './Icon.astro';
 ---
 
 <aside>
-	<h2>Interested in working together?</h2>
-	<CallToAction href="mailto:me@example.com">
-		Send Me a Message
+	<h2>Nieuwsgierig geworden? Ik ook naar jou!</h2>
+	<CallToAction href="mailto:jeaninehakvoort@hoymi">
+		Neem contact op
 		<Icon icon="paper-plane-tilt" size="1.2em" />
 	</CallToAction>
 </aside>
@@ -14,8 +14,8 @@ import Icon from './Icon.astro';
 <style>
 	aside {
 		display: flex;
-		flex-direction: column;
-		align-items: center;
+		/* flex-direction: column;
+		align-items: center; */
 		gap: 3rem;
 		border-top: 1px solid var(--gray-800);
 		border-bottom: 1px solid var(--gray-800);
@@ -32,15 +32,17 @@ import Icon from './Icon.astro';
 
 	@media (min-width: 50em) {
 		aside {
-			padding: 7.5rem;
-			flex-direction: row;
+			padding: 4rem;
+			/* padding: 7.5rem; */
+			flex-direction: column;
 			flex-wrap: wrap;
+			align-items: center;
 			justify-content: space-between;
 		}
 
 		h2 {
 			font-size: var(--text-3xl);
-			text-align: left;
+			text-align: center;
 		}
 	}
 </style>
