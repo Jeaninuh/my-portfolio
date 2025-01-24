@@ -11,6 +11,10 @@ import Hero from '../components/Hero.astro';
 import Icon from '../components/Icon.astro';
 import Pill from '../components/Pill.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
+import { Image } from 'astro:assets';
+
+// Image import
+import AvatarImage from '../assets/avatar.jpeg'; // Image is 1600x900
 
 // Page section components
 import ContactCTA from '../components/ContactCTA.astro';
@@ -41,12 +45,7 @@ const projects = (await getCollection('work'))
 					</div>
 				</Hero>
 
-				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
-					width="480"
-					height="620"
-					src="/assets/avatar.jpeg"
-				/>
+				<Image src={AvatarImage} alt ="Picture of Jeanine in front of a grey background"/>
 			</header>
 
 			<Skills />

@@ -3,6 +3,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+
+import { Image } from 'astro:assets';
+import ActionImage from '../assets/jeanine-at-work.jpg';
 ---
 
 <BaseLayout title="Over mij | Jeanine Hakvoort" description="Over Jeanine Hakvoort">
@@ -12,10 +15,10 @@ import Hero from '../components/Hero.astro';
 				title="Over mij"
 				tagline="Wat leuk dat je interesse toont. Hier wat meer over mij!"
 			>
-				<img
+				<Image
 					width="1553"
 					height="873"
-					src="/assets/jeanine-at-work.jpg"
+					src={ActionImage}
 					alt="Jeanine aan het werk met een collega"
 				/>
 			</Hero>
@@ -103,8 +106,8 @@ import Hero from '../components/Hero.astro';
 		}
 
 		.about > :global(:first-child) {
-			grid-column: 1 / 4;
-			/*grid-column-start: 2;*/
+			/* grid-column: 1 / 4; */
+			grid-column-start: 2;
 		}
 
 		section {
