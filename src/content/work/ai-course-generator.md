@@ -4,7 +4,7 @@ publishDate: 2025-29-01
 img: /assets/stock-1.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
-  Ik heb onderzoek gedaan naar en het design gemaakt voor een AI course generator voor een learning management system.
+  Voor een learning management system heb ik onderzoek gedaan naar en een ontwerp gemaakt voor een AI course generator.
 tags:
   - UI Design
   - UX Research
@@ -41,9 +41,13 @@ We begonnen het project met heel veel vragen, zoals:
 
 Voor antwoorden op deze en meer vragen hebben we user interviews gehouden met 3 belangrijke doelgroepen:
 
-- De product owners
-- Onderwijsprofessionals
-- Studenten
+- **De product owners**: om erachter te komen hoe de businesspropositie binnen het plaatje past.
+- **Onderwijsprofessionals**: om te ontdekken hoe lesmateriaal en curricula worden ontwikkeld.
+- **Studenten**: om te leren hoe mensen het beste leren en lesmateriaal willen verwerken.
+
+Voordat we aan de interviews begonnen, heb ik eerst een user flow gemaakt. De reden dat ik dat nu al had gedaan en niet verderop in het proces, was omdat ik graag wilde checken bij de developers of alles mogelijk was wat ik in gedachten had en om goedkeuring te krijgen van de product owners.
+
+<Image src="../../assets/user-flow.png" alt="A diagram of a user flow of a teacher generating a course with AI" />
 
 ### Belangrijkste bevindingen
 
@@ -54,11 +58,11 @@ Met behulp van NotebookLM konden we de interviews tegelijkertijd analyseren. Dit
 - Interactie is cruciaal voor het leren. Dit kan in de vorm van groepsopdrachten, discussies of bijvoorbeeld een dialoog met een (AI-)tutor. E-learning moet niet alleen zenden zijn, maar het moet ook interactie stimuleren.
 - Er is meer vertrouwen in AI gegenereerd lesmateriaal als het gebaseerd is op betrouwbare bronnen en als er een feedbackloop is ingebouwd (onder andere van studenten).
 
-### Uitdaging
+#### Uitdaging
 
 Er waren nog geen klanten van de opdrachtgever voor de studentendoelgroep die we konden uitnodigen. Wel had de opdrachtgever een e-maillijst met gebruikers die al eerder trainingen via hun hadden gevolgd toen het platform nog een open B2C platform was. We kregen echter weinig respons toen we een oproep deden.
 
-### Oplossing
+#### Oplossing
 
 Om mensen aan te sporen, werd er een beloning aangeboden: Als respondenten zouden meedoen aan een aantal gebruikersonderzoeken (waaronder een diepte-interview voor dit project) kregen ze een jaar lang gratis toegang tot de bibliotheek aan trainingen. Uiteindelijk hebben we 1 iemand hierdoor kunnen interviewen. Hoewel we liever met meerdere mensen had gesproken, was de feedback van de respondent enorm waardevol!
 
@@ -71,7 +75,9 @@ Ik heb ervoor gekozen om de generator als een wizard vorm te geven. Dit was ook 
 <Image src="../../assets/lofi-wireframes/9-lofi-step4-2.jpg" alt="A lofi wireframe of step 4 of the course generator user flow" />
 <Image src="../../assets/lofi-wireframes/10-lofi-step4-3.jpg" alt="A lofi wireframe of step 4 of the course generator user flow" />
 
-Voor sommige stappen in de user flow heb ik meerdere versies gemaakt en getest om erachter te komen wat gebruikers het liefste wilden.<br/>
+Voor sommige stappen in de user flow heb ik meerdere versies gemaakt en getest om erachter te komen wat de testers ervan vonden.<br/>
+
+<a href="https://www.figma.com/design/xtrIubMX2FrYrcuKDBoXYT/AI-Course-Generator?node-id=0-1&t=QVOl3j0uTwqJW3DD-1" target="_blank">Bekijk de wireframes in Figma</a>
 
 ## Testen
 
@@ -87,11 +93,11 @@ Aan het einde vroeg ik naar hun ervaring met de gehele flow, wat ze goed vonden,
 
 Kom ik nog op terug
 
-### Uitdaging
+#### Uitdaging
 
 De tests konden niet worden gedaan door directe leden van de doelgroepen, zoals de onderwijsprofessionals of de student. Ik moest dus op zoek naar alternatieve testers.
 
-### Oplossing
+#### Oplossing
 
 Ik heb 5 werknemers van het moederbedrijf van de opdrachtgever gevraagd om deel te nemen als testers. Dit waren werknemers van andere afdelingen, zoals office managers en medewerkers van marketing en sales. Omdat ze niet direct betrokken waren bij het project hadden ze een frisse en onbevooroordeelde blik. Bovendien was de test snel en lokaal uit te voeren, omdat de meeste testers op hetzelfde kantoor aanwezig waren.
 
@@ -99,9 +105,12 @@ Ik heb 5 werknemers van het moederbedrijf van de opdrachtgever gevraagd om deel 
 
 Nadat de resultaten van de tests waren geanalyseerd, heb ik een definitief ontwerp gemaakt.
 
-### Opmerkingen
+#### Opmerkingen
 
 Het systeem waar het design uiteindelijk in gebouwd zal worden heeft een development freeze, omdat er wordt gewerkt aan een nieuw systeem met een nieuwe tech stack. Hierdoor was ik beperkt tot het gebruik van de huidige implementatie van de component library en design systeem. Hier is het uiteindelijke ontwerp ook op gebouwd.
+
+<Image src="../../assets/learning-goals-screen-design.jpg" alt="A design of the goals screen of the course generator" />
+<a href="https://www.figma.com/design/xtrIubMX2FrYrcuKDBoXYT/AI-Course-Generator?node-id=0-1&t=QVOl3j0uTwqJW3DD-1" target="_blank">Bekijk de volledige designs in Figma</a>
 
 ## Conclusie en geleerde lessen
 
