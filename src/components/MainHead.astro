@@ -10,12 +10,15 @@ const {
 	title = 'Jeanines portfolio',
 	description = 'Dit is Jeanines UI/UX portfolio',
 } = Astro.props;
+
+import Lightbox from '@julian_cataldo/astro-lightbox/Lightbox.astro';
 ---
 
 <meta charset="UTF-8" />
 <meta name="description" property="og:description" content={description} />
 <meta name="viewport" content="width=device-width" />
 <meta name="generator" content={Astro.generator} />
+<Lightbox />
 <title>{title}</title>
 
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
