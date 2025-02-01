@@ -47,7 +47,10 @@ Voor antwoorden op deze en meer vragen hebben we user interviews gehouden met 3 
 
 Voordat we aan de interviews begonnen, heb ik eerst een user flow gemaakt. De reden dat ik dat nu al had gedaan en niet verderop in het proces, was omdat ik graag wilde checken bij de developers of alles mogelijk was wat ik in gedachten had en om goedkeuring te krijgen van de product owners.
 
-<Image src="../../assets/user-flow.png" alt="A diagram of a user flow of a teacher generating a course with AI" />
+<div data-lightbox="true">
+<Image src="../../assets/user-flow.png" alt="A diagram of a user flow of a teacher generating a course with AI"></Image>
+</div>
+(Klik op de afbeeldingen om in te zoomen)
 
 ### Belangrijkste bevindingen
 
@@ -71,9 +74,16 @@ Om mensen aan te sporen, werd er een beloning aangeboden: Als respondenten zoude
 Met het onderzoek achter de rug en met vele ideeën in petto ging ik aan de slag met een eerste versie. Hiervoor heb ik lo-fi wireframes gemaakt.<br/>
 Ik heb ervoor gekozen om de generator als een wizard vorm te geven. Dit was ook een terugkerend element uit het concurrentieonderzoek en helpt de gebruiker stap voor stap door het proces te leiden, terwijl de hoeveelheid informatie per stap beheersbaar blijft.
 
+<div data-lightbox="true">
 <Image src="../../assets/lofi-wireframes/8-lofi-step4-1.jpg" alt="A lofi wireframe of step 4 of the course generator user flow" />
+</div>
+<div data-lightbox="true">
 <Image src="../../assets/lofi-wireframes/9-lofi-step4-2.jpg" alt="A lofi wireframe of step 4 of the course generator user flow" />
+</div>
+<div data-lightbox="true">
 <Image src="../../assets/lofi-wireframes/10-lofi-step4-3.jpg" alt="A lofi wireframe of step 4 of the course generator user flow" />
+</div>
+(Klik op de afbeeldingen om in te zoomen)
 
 Voor sommige stappen in de user flow heb ik meerdere versies gemaakt en getest om erachter te komen wat de testers ervan vonden.<br/>
 
@@ -109,7 +119,9 @@ Nadat de resultaten van de tests waren geanalyseerd, heb ik een definitief ontwe
 
 Het systeem waar het design uiteindelijk in gebouwd zal worden heeft een development freeze, omdat er wordt gewerkt aan een nieuw systeem met een nieuwe tech stack. Hierdoor was ik beperkt tot het gebruik van de huidige implementatie van de component library en design systeem. Hier is het uiteindelijke ontwerp ook op gebouwd.
 
+<div data-lightbox="true">
 <Image src="../../assets/learning-goals-screen-design.jpg" alt="A design of the goals screen of the course generator" />
+</div>
 <a href="https://www.figma.com/design/xtrIubMX2FrYrcuKDBoXYT/AI-Course-Generator?node-id=0-1&t=QVOl3j0uTwqJW3DD-1" target="_blank">Bekijk de volledige designs in Figma</a>
 
 ## Conclusie en geleerde lessen
