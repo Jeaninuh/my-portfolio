@@ -28,7 +28,7 @@ Tijdens dit project kreeg ik ook te maken met bepaalde randvoorwaarden die invlo
 - De variabelen waar de course generator op gebaseerd zou worden, stonden van tevoren al vast
 - Het project moest in een korte tijdspanne van 4 weken en met beperkte middelen worden uitgevoerd
 
-Benieuwd naar het eindresultaat en de belangrijkste bevindingen? <a href=#conclusie>Scroll gelijk naar de conclusie</a>
+Benieuwd naar het eindresultaat en de belangrijkste bevindingen? <a href=#design>Scroll gelijk naar het design en de conclusie</a>
 
 ## Onderzoek
 
@@ -48,9 +48,10 @@ Voor antwoorden op deze en meer vragen hebben we user interviews gehouden met 3 
 Voordat we aan de interviews begonnen, heb ik eerst een user flow gemaakt. De reden dat ik dat nu al had gedaan en niet verderop in het proces, was omdat ik graag wilde checken bij de developers of alles mogelijk was wat ik in gedachten had en om goedkeuring te krijgen van de product owners.
 
 <div data-lightbox="true">
-<Image src="../../assets/user-flow.png" alt="A diagram of a user flow of a teacher generating a course with AI"></Image>
+<Image src="../../assets/userflows/userflow1.png" alt="A part of a user flow of a teacher generating a course with AI"></Image>
 </div>
-(Klik op de afbeeldingen om in te zoomen)
+(Klik op de afbeeldingen om in te zoomen)<br/>
+<a href="https://www.figma.com/design/xtrIubMX2FrYrcuKDBoXYT/AI-Course-Generator?node-id=0-1&t=QVOl3j0uTwqJW3DD-1" target="_blank">Bekijk de volledige user flow in Figma</a>
 
 ### Belangrijkste bevindingen
 
@@ -72,14 +73,8 @@ Om mensen aan te sporen, werd er een beloning aangeboden: Als respondenten zoude
 ## Concept
 
 Met het onderzoek achter de rug en met vele ideeën in petto ging ik aan de slag met een eerste versie. Hiervoor heb ik lo-fi wireframes gemaakt.<br/>
-Ik heb ervoor gekozen om de generator als een wizard vorm te geven. Dit was ook een terugkerend element uit het concurrentieonderzoek en helpt de gebruiker stap voor stap door het proces te leiden, terwijl de hoeveelheid informatie per stap beheersbaar blijft.
+Ik heb ervoor gekozen om de generator als een wizard vorm te geven. Hierdoor kun je de gebruiker stap voor stap door een nieuwe feature leiden, waarbij de hoeveelheid informatie per stap beheersbaar blijft.
 
-<div data-lightbox="true">
-<Image src="../../assets/lofi-wireframes/8-lofi-step4-1.jpg" alt="A lofi wireframe of step 4 of the course generator user flow" />
-</div>
-<div data-lightbox="true">
-<Image src="../../assets/lofi-wireframes/9-lofi-step4-2.jpg" alt="A lofi wireframe of step 4 of the course generator user flow" />
-</div>
 <div data-lightbox="true">
 <Image src="../../assets/lofi-wireframes/10-lofi-step4-3.jpg" alt="A lofi wireframe of step 4 of the course generator user flow" />
 </div>
@@ -96,6 +91,7 @@ Voor de test heb ik 5 mensen uitgenodigd om de lo-fi wireframes te testen. Het v
 1. De tester kreeg een scenario voorgelegd
 2. Ik stelde enkele vragen over het platform en wat hun verwachtingen waren
 3. Ik liep samen met de tester stap voor stap door de interfaces en stelde vragen zoals “Waarom klik je daar op?" en “Wat verwacht je op het volgende scherm te zien?”
+4. Een aantal stappen hadden verschillende versies, wat ik niet aan de testers vertelde. Ik vroeg bij de eerste versie wat ze ervan vonden en of ze iets anders zouden willen zien en liet ze daarna de andere versies van dezelfde stap zien. Hun feedback gaf of bevestiging welke versie het meeste beviel, of gaf me weer heel andere inzichten en ideeën.
 
 Aan het einde vroeg ik naar hun ervaring met de gehele flow, wat ze goed vonden, wat ze verraste en wat verbeterd zou kunnen worden.
 
@@ -122,10 +118,11 @@ Het systeem waar het design uiteindelijk in gebouwd zal worden heeft een develop
 <div data-lightbox="true">
 <Image src="../../assets/learning-goals-screen-design.jpg" alt="A design of the goals screen of the course generator" />
 </div>
+(Klik op de afbeeldingen om in te zoomen)<br/>
 <a href="https://www.figma.com/design/xtrIubMX2FrYrcuKDBoXYT/AI-Course-Generator?node-id=0-1&t=QVOl3j0uTwqJW3DD-1" target="_blank">Bekijk de volledige designs in Figma</a>
 
 ## Conclusie en geleerde lessen
 
 - De user flow was al snel bedacht, omdat ik wilde checken bij development of mijn ideeën mogelijk waren in het huidige systeem. Deze user flow heb ik ook laten zien tijdens de interviews met de onderwijsprofessionals. Als ik hier op terugkijk had ik dit liever niet gedaan. Hierdoor had ik de onderwijsprofessionals al in een bepaald stramien laten nadenken. Dit gaf wel structuur aan het interview, maar beperkte ze wel in hun antwoorden.
+- Tijdens interviews is het belangrijk geen sturende of gekleurde vragen te stellen. Om dit zoveel mogelijk te voorkomen heb ik na elk interview bewust gereflecteerd op hoe het ging en wat beter kon. Hierdoor had ik snel door wat ik kon veranderen waardoor de opvolgende interviews een stuk beter gingen. Dit is iets wat ik graag wil blijven doen in toekomstige projecten.
 - Tijdens de usability tests had ik te snel de conclusie getrokken dat de course generator beschikbaar zou zijn in het dashboard. Dit was terug te zien in mijn lo-fi wireframes, maar uit de gesprekken met de testers kwam naar voren dat dit niet hun eerste gedachte was. Hier heb ik mijn eigen aannames dus laten doorschemeren.
-- Tijdens de interviews met de onderwijsprofessionals was het soms lastig om niet al te sturende vragen te stellen. Ook had ik soms graag door willen vragen, maar omwille van de tijd was dit niet altijd mogelijk.
