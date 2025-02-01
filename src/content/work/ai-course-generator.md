@@ -97,7 +97,11 @@ Aan het einde vroeg ik naar hun ervaring met de gehele flow, wat ze goed vonden,
 
 ### Belangrijkste bevindingen
 
-Kom ik nog op terug
+- **De AI course generator moet beter vindbaar zijn.**. Testers zochten naar een manier om de course generator te vinden en misten duidelijke informatie hierover op de homepage of in het hoofdmenu.
+- **De stappen in de AI training generator worden als overzichtelijk ervaren, met name door de linker navigatiebalk.**
+- **De definities van 'beginner, gemiddeld en gevorderd' zijn subjectief.** Testers interpreteerden de termen op verschillende manieren. Sommigen dachten dat een visuele schaal van 0-10 zou kunnen helpen. Een versie met extra contextuele informatie bij deze opties werd positiever ontvangen.
+- **De vraag over de doorlooptijd van de training was verwarrend en leidde tot vragen over hoe de AI dit zou interpreteren.** Testers hadden veel vragen over wat er precies werd bedoeld met de vraag over de doorlooptijd. Sommigen dachten aan trainingsdagen, anderen aan het aantal uren per week. Er werd gesuggereerd om duidelijker te zijn over de studielast en de relatie met de hoeveelheid lesmateriaal
+- **De vraag over de doelgroep was vaag en leidde tot onduidelijkheid over wat er van de testers werd verwacht.** Testers waren onzeker over wat ze moesten invoeren bij de vraag over de doelgroep. Sommigen verwachtten een dropdown met sectoren. Een versie met een placeholder tekst werd beter ontvangen, maar het moet duidelijk zijn dat gebruikers uiteindelijk zelf iets moeten invoeren.
 
 #### Uitdaging
 
