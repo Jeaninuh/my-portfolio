@@ -28,7 +28,7 @@ Tijdens dit project kreeg ik ook te maken met bepaalde randvoorwaarden die invlo
 - De variabelen waar de course generator op gebaseerd zou worden, stonden van tevoren al vast
 - Het project moest in een korte tijdspanne van 4 weken en met beperkte middelen worden uitgevoerd
 
-Benieuwd naar het eindresultaat en de belangrijkste bevindingen? <a href=#design>Scroll gelijk naar het design en de conclusie</a>
+Benieuwd naar het eindresultaat en de belangrijkste bevindingen? <a href=#design>Scroll dan gelijk door naar de designs en de conclusie.</a>
 
 ## Onderzoek
 

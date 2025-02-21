@@ -1,22 +1,109 @@
 ---
-title: Duvet Genius
+title: Collow LMS
 publishDate: 2020-03-04 00:00:00
 img: /assets/stock-3.jpg
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
-  We developed a virtual showcase for the softest bedding imaginable.
+  Ik heb UI designs gemaakt en gewerkt aan branding voor een nieuw learning management system
 tags:
-  - Design
-  - Dev
+  - UI Design
   - Branding
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+<a href=#overzicht>Overzicht</a><br/>
+<a href=#onderzoek>Onderzoek</a><br/>
+<a href=#concept>Concept</a><br/>
+<a href=#testen>Testen</a><br/>
+<a href=#design>Design</a><br/>
+<a href=#conclusie-en-geleerde-lessen>Conclusie en geleerde lessen</a>
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+## Overzicht
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+Dit project begon als een gratis online leerplatform gericht op omscholing in/naar de IT genaamd "Collow". Als UI/UX Designer heb ik de interface ontworpen. Uiteindelijk is het project een andere richting ingeslagen en is het omgebouwd tot een corporate LMS. Hier ben ik ook de UI/UX Designer voor geweest. Lees het verhaal over mijn ervaring als de designer en hoe ik ben gegroeid in mijn design skills.
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Ben je vooral benieuwd naar de iteraties en eindresultaten? <a href=#design>Scroll dan gelijk door naar de designs en de conclusie.</a>
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+## Het begin
+
+Oorspronkelijk was Collow bedoeld als een online leerplatform voor mensen die graag IT-skills wilden leren om uiteindelijk een baan te vinden in de wereld van IT. Toen het platform uiteindelijk een LMS werd, was er veel overlap met de features die voor het platform nodig waren:
+
+- Een admin panel met gebruikers- en groepsbeheer voor admins
+- Een profiel waar gebruikers hun trainingen konden inzien
+- Een trainingsomgeving waar gebruikers hun trainingen in konden volgen
+
+### Uitdaging
+
+Dit was een compleet nieuw product met beperkte middelen, dus er was geen mogelijkheid om interfaces te testen bij (potentiële) gebruikers buiten het developmentteam om. De vroegere interfaces zijn daarom niet uitvoerig getest. Wel zijn er door de tijd heen genoeg nieuwe iteraties en verbeteringen gekomen. Deze vind je ook terug in deze post.
+
+### Gebruikersbeheer
+
+Als gebruikers van een LMS moesten admins in staat zijn om gebruikers:
+
+- in te kunnen zien,
+- uit te nodigen,
+- te deactiveren en heractiveren,
+- te verwijderen.
+
+Hier zijn veel design iteraties voor ontworpen. Het begon met deze interface:
+
+<div data-lightbox="true">
+<Image src="../../assets/collow-lms/collow-LMS-gebruikersbeheer.png" alt="Het eerste design voor de gebruikersbeheerinterface voor admins" />
+</div>
+(Klik op de afbeeldingen om in te zoomen)
+
+En in het nieuwe systeem ziet de interface er zo uit:
+
+<div data-lightbox="true">
+<Image src="../../assets/collow-lms/collow-LMS-gebruikersbeheer-2.png" alt="Een nieuw design voor de gebruikersbeheerinterface voor admins" />
+</div>
+(Klik op de afbeeldingen om in te zoomen)
+
+<a href="#" target="_blank">Bekijk de wireframes voor beide versies en een prototype voor de nieuwe versie in Figma</a>
+
+### Groepsbeheer
+
+Admins moesten in staat zijn om:
+
+- groepen te creëren,
+- gebruikers en trainingen te koppelen aan groepen,
+- groepen te wijzigen,
+- groepen te verwijderen.
+
+Dit was het eerste design:
+
+<div data-lightbox="true">
+<Image src="../../assets/collow-lms/collow-LMS-groepsbeheer.png" alt="Het eerste design voor de groepsbeheerinterface voor admins" />
+</div>
+(Klik op de afbeeldingen om in te zoomen)
+
+En in het nieuwe systeem ziet de interface er zo uit:
+
+<div data-lightbox="true">
+<Image src="../../assets/collow-lms/collow-LMS-groepsbeheer-2.png" alt="Een nieuw design voor de groepsbeheerinterface voor admins" />
+</div>
+(Klik op de afbeeldingen om in te zoomen)
+
+<a href="#" target="_blank">Bekijk de wireframes voor beide versies en een prototype voor de nieuwe versie in Figma</a>
+
+### Profiel
+
+Cursisten/studenten moesten in staat zijn om:
+
+- de trainingen die ze volgen in te zien
+- hun profiel te wijzigen
+
+Dit was het eerste design:
+
+<div data-lightbox="true">
+<Image src="../../assets/collow-lms/collow-LMS-profiel.png" alt="Het eerste design voor de profielinterface voor studenten/cursisten" />
+</div>
+(Klik op de afbeeldingen om in te zoomen)
+
+En in het nieuwe systeem ziet de interface er zo uit:
+
+<div data-lightbox="true">
+<Image src="../../assets/collow-lms/collow-LMS-profiel-2.png" alt="Een nieuw design voor de profielinterface voor studenten/cursisten" />
+</div>
+(Klik op de afbeeldingen om in te zoomen)
+
+<a href="#" target="_blank">Bekijk de wireframes voor beide versies en een prototype voor de nieuwe versie in Figma</a>
