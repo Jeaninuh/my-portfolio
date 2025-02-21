@@ -36,8 +36,8 @@ We begonnen het project met heel veel vragen, zoals:
 
 - Hoe sluit de generator aan op de businessdoelen en de wensen en behoeften van de opdrachtgever?
 - Hoe zorgen we ervoor dat de gebruikerservaring en de output van de generator goed didactisch onderbouwd zijn?
-- Hoe leren studenten het beste en hoe volgen ze een training het liefst?
-- Wat vinden de verschillende doelgroepen van het genereren en leren van lesmateriaal gemaakt met behulp van AI?
+- Hoe leren studenten het beste en hoe volgen ze het liefst een training?
+- Wat vinden de verschillende doelgroepen van het genereren van en leren van lesmateriaal gemaakt met behulp van AI?
 
 Voor antwoorden op deze en meer vragen hebben we user interviews gehouden met 3 belangrijke doelgroepen:
 
@@ -45,7 +45,7 @@ Voor antwoorden op deze en meer vragen hebben we user interviews gehouden met 3 
 - **Onderwijsprofessionals**: om te ontdekken hoe lesmateriaal en curricula worden ontwikkeld.
 - **Studenten**: om te leren hoe mensen het beste leren en lesmateriaal willen verwerken.
 
-Voordat we aan de interviews begonnen, heb ik eerst een user flow gemaakt. De reden dat ik dat nu al had gedaan en niet verderop in het proces, was omdat ik graag wilde checken bij de developers of alles mogelijk was wat ik in gedachten had en om goedkeuring te krijgen van de product owners.
+Voordat we aan de interviews begonnen, heb ik eerst een user flow gemaakt. Normaal gesproken word die verderop in het proces gemaakt, maar de reden dat ik dat op dit moment al deed, was omdat ik graag met het developmentteam wilde schakelen om de juiste verwachtingen te scheppen en om goedkeuring te krijgen van de product owners.
 
 <div data-lightbox="true">
 <Image src="../../assets/userflows/userflow1.png" alt="A part of a user flow of a teacher generating a course with AI"></Image>
@@ -55,20 +55,20 @@ Voordat we aan de interviews begonnen, heb ik eerst een user flow gemaakt. De re
 
 ### Belangrijkste bevindingen
 
-Met behulp van NotebookLM konden we de interviews tegelijkertijd analyseren. Dit stelde ons in staat om snel en makkelijk patronen te ontdekken en inzichten te verzamelen. Een aantal van de meest belangrijke bevindingen waren:
+Met behulp van NotebookLM kon ik de interviews snel en tegelijkertijd analyseren. Hierdoor kon ik snel en makkelijk patronen ontdekken en inzichten verzamelen. Een aantal van de meest belangrijke bevindingen waren:
 
-- Begin bij het ontwikkelen van lesmateriaal met de leerdoelen. Van daaruit ontwerp je lesmateriaal en de toetsen. Dit wordt ook wel "backwards design" genoemd.
-- Het is belangrijk dat de moeilijkheidsgraad aansluit bij de voorkennis van de studenten zodat de stappen niet als te groot of te klein worden ervaren.
-- Interactie is cruciaal voor het leren. Dit kan in de vorm van groepsopdrachten, discussies of bijvoorbeeld een dialoog met een (AI-)tutor. E-learning moet niet alleen zenden zijn, maar het moet ook interactie stimuleren.
-- Er is meer vertrouwen in AI gegenereerd lesmateriaal als het gebaseerd is op betrouwbare bronnen en als er een feedbackloop is ingebouwd (onder andere van studenten).
+- **Begin bij het ontwikkelen van lesmateriaal met de leerdoelen.** Van daaruit ontwerp je lesmateriaal en de toetsen. Dit wordt ook wel "backwards design" genoemd.
+- Het is belangrijk dat **de moeilijkheidsgraad aansluit bij de voorkennis** van de studenten zodat de stappen niet als te groot of te klein worden ervaren.
+- **Interactie is cruciaal voor het leren.** Dit kan in de vorm van groepsopdrachten, discussies of bijvoorbeeld een dialoog met een (AI-)tutor. E-learning moet niet alleen zenden zijn, maar het moet ook interactie stimuleren.
+- Er is **meer vertrouwen in AI** gegenereerd lesmateriaal als het **gebaseerd is op betrouwbare bronnen** en als er een feedbackloop is ingebouwd (onder andere van studenten).
 
 #### Uitdaging
 
-Er waren nog geen klanten van de opdrachtgever voor de studentendoelgroep die we konden uitnodigen. Wel had de opdrachtgever een e-maillijst met gebruikers die al eerder trainingen via hun hadden gevolgd toen het platform nog een open B2C platform was. We kregen echter weinig respons toen we een oproep deden.
+Voor de cursistendoelgroep hadden we geen werknemers van de klanten van de opdrachtgever om te interviewen tot onze beschikking. Wel had de opdrachtgever een e-maillijst met gebruikers die al eerder trainingen via hun hadden gevolgd toen het platform nog een open B2C platform was. We kregen echter weinig respons toen we een oproep deden.
 
 #### Oplossing
 
-Om mensen aan te sporen, werd er een beloning aangeboden: Als respondenten zouden meedoen aan een aantal gebruikersonderzoeken (waaronder een diepte-interview voor dit project) kregen ze een jaar lang gratis toegang tot de bibliotheek aan trainingen. Uiteindelijk hebben we 1 iemand hierdoor kunnen interviewen. Hoewel we liever met meerdere mensen had gesproken, was de feedback van de respondent enorm waardevol!
+Om mensen aan te sporen, werd er een beloning aangeboden: Als respondenten zouden meedoen aan een aantal gebruikersonderzoeken (waaronder een diepte-interview voor dit project) kregen ze een jaar lang gratis toegang tot de bibliotheek aan trainingen. Uiteindelijk hebben we 1 iemand hierdoor kunnen interviewen. De feedback van de respondent was enorm waardevol!
 
 ## Concept
 
@@ -91,14 +91,14 @@ Voor de test heb ik 5 mensen uitgenodigd om de lo-fi wireframes te testen. Het v
 1. De tester kreeg een scenario voorgelegd
 2. Ik stelde enkele vragen over het platform en wat hun verwachtingen waren
 3. Ik liep samen met de tester stap voor stap door de interfaces en stelde vragen zoals “Waarom klik je daar op?" en “Wat verwacht je op het volgende scherm te zien?”
-4. Een aantal stappen hadden verschillende versies, wat ik niet aan de testers vertelde. Ik vroeg bij de eerste versie wat ze ervan vonden en of ze iets anders zouden willen zien en liet ze daarna de andere versies van dezelfde stap zien. Hun feedback gaf of bevestiging welke versie het meeste beviel, of gaf me weer heel andere inzichten en ideeën.
+4. Een aantal stappen hadden verschillende versies, wat ik niet aan de testers vertelde. Ik vroeg bij de eerste versie wat ze ervan vonden en of ze iets anders zouden willen zien. Daarna liet ik ze de andere versies van dezelfde stap zien. Hun feedback gaf óf bevestiging welke versie het meeste beviel, óf gaf me weer heel andere inzichten en ideeën.
 
 Aan het einde vroeg ik naar hun ervaring met de gehele flow, wat ze goed vonden, wat ze verraste en wat verbeterd zou kunnen worden.
 
 ### Belangrijkste bevindingen
 
-- **De AI course generator moet beter vindbaar zijn.**. Testers zochten naar een manier om de course generator te vinden en misten duidelijke informatie hierover op de homepage of in het hoofdmenu.
-- **De stappen in de AI training generator worden als overzichtelijk ervaren, met name door de linker navigatiebalk.**
+- **De AI course generator moet beter vindbaar zijn.** Testers zochten naar een manier om de course generator te vinden en misten duidelijke informatie hierover op de homepagina of in het hoofdmenu.
+- **De stappen** in de AI training generator worden als **overzichtelijk** ervaren, met name door de linker navigatiebalk.
 - **De definities van 'beginner, gemiddeld en gevorderd' zijn subjectief.** Testers interpreteerden de termen op verschillende manieren. Sommigen dachten dat een visuele schaal van 0-10 zou kunnen helpen. Een versie met extra contextuele informatie bij deze opties werd positiever ontvangen.
 - **De vraag over de doorlooptijd van de training was verwarrend en leidde tot vragen over hoe de AI dit zou interpreteren.** Testers hadden veel vragen over wat er precies werd bedoeld met de vraag over de doorlooptijd. Sommigen dachten aan trainingsdagen, anderen aan het aantal uren per week. Er werd gesuggereerd om duidelijker te zijn over de studielast en de relatie met de hoeveelheid lesmateriaal
 - **De vraag over de doelgroep was vaag en leidde tot onduidelijkheid over wat er van de testers werd verwacht.** Testers waren onzeker over wat ze moesten invoeren bij de vraag over de doelgroep. Sommigen verwachtten een dropdown met sectoren. Een versie met een placeholder tekst werd beter ontvangen, maar het moet duidelijk zijn dat gebruikers uiteindelijk zelf iets moeten invoeren.
@@ -113,7 +113,7 @@ Ik heb 5 werknemers van het moederbedrijf van de opdrachtgever gevraagd om deel 
 
 ## Design
 
-Nadat de resultaten van de tests waren geanalyseerd, heb ik een definitief ontwerp gemaakt.
+Nadat ik de resultaten van de tests had geanalyseerd, heb ik een definitief ontwerp gemaakt.
 
 #### Opmerkingen
 
